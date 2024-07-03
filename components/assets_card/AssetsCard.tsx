@@ -6,7 +6,7 @@ const AssetsCard = async () => {
 
   return (
     <div className="w-full ">
-      <div className="overflow-x-auto bg-black backdrop-blur-lg  bg-opacity-50 backdrop-blur-3 rounded-lg border border-[#464646]">
+      <div className="overflow-x-auto bg-black backdrop-blur-lg  bg-opacity-70 backdrop-blur-3 p-8 rounded-lg border border-[#464646]">
         <AssetsTable assets={data.assets} />
       </div>
     </div>

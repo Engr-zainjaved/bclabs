@@ -28,19 +28,17 @@ export const AssetsTable: FC<AssetsTableProps> = ({ assets }) => {
     <table className="w-full max-w-full p-4">
       <thead>
         <tr>
-          <th className="py-2 text-left pl-4">ASSETS</th>
+          <th className=" py-2 text-left pl-4">ASSETS</th>
           <th className="py-2 text-left">LAST TRADE</th>
           <th className="py-2 text-left">24H %</th>
           <th className="py-2 text-left">24H CHANGE</th>
-          <th className="py-2 text-left">
-            <Button variant="link" className="text-[#3980FF]">
-              MORE &gt;
-            </Button>
+          <th className=" py-2 text-left w-20">
+            <div className="text-[#3980FF] underline cursor-pointer">MORE &gt;</div>
           </th>
         </tr>
         <tr>
           <th colSpan={5}>
-            <hr className="border-[#464646] flex justify-center" />
+            <hr className="border-[#464646] flex justify-center " />
           </th>
         </tr>
       </thead>
